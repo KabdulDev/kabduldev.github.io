@@ -4,22 +4,49 @@
 
 .App-logo1 {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: all;
 }
 
 .App-logo2 {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: all;
+}
+
+.App-logo3 {
+  height: 40vmin;
+  pointer-events: all;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo3 {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header1 {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #a83af1;
+}
+
+.App-header2 {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #dea925;
+}
+
+.App-header3 {
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,11 +56,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-link1 {
+  color: #dea925;
 }
 
-/* Pausing image spinning
+.App-link2 {
+  color: #a83af1;
+}
+
+.App-link3 {
+  color: #868686;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -42,4 +78,4 @@
     transform: rotate(360deg);
   }
 }
-*/
+
